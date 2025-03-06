@@ -1,0 +1,12 @@
+/* 
+.navbar{
+    position: absolute;
+    bottom: 0px;
+}
+
+@media (min-width:"580px") {
+    .navbar{
+        background-color: aqua;
+        color: blue;
+    }
+} */
