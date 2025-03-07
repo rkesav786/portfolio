@@ -13,16 +13,16 @@ export const Card = () => {
       title: "PickBazar",
       details:
         "PickBazar is a modern, fully responsive e-commerce platform built with React.js. It offers a seamless shopping experience with features like product filtering, cart management, and secure checkout.",
-      source: "HTML, CSS, JavaScript, React.js",
+      source: "HTML, CSS, JavaScript, React.js, Mock Api",
       github_link: "https://github.com/rkesav786/pickbazar-Frontend",
     },
     {
       image: pickbazar,
-      title: "PickBazar",
+      title: "EasyBus Ride",
       details:
-        "PickBazar is a modern, fully responsive e-commerce platform built with React.js. It offers a seamless shopping experience with features like product filtering, cart management, and secure checkout.",
-      source: "HTML, CSS, JavaScript, React.js",
-      github_link: "https://github.com/rkesav786/pickbazar-Frontend",
+        "Sample Bus booking website,built with React.js. It offers a seamless admin add bus with features like.create, delete, update, add bus",
+      source: "HTML, CSS, JavaScript, React.js, Express js, MongoDB",
+      github_link: "https://github.com/rkesav786/EasyRideProject/tree/bus",
     },
     {
       image: ecommerce,

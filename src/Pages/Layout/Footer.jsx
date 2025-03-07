@@ -28,12 +28,12 @@ export const Footer = () => {
   ];
 
   return (
-    <div>
+    <div className="border-top" id="footer-section">
       <div className="bg-dark d-flex justify-content-around text-light p-3">
         <div className="mt-3">
           <h4 className="text-white">Contact</h4>
           <div className="text-secondary mt-3 ">
-            <h4>
+            <h4 className="fs-6">
               <span className="me-2">
                 <FontAwesomeIcon icon={faUser} />
               </span>
@@ -43,7 +43,12 @@ export const Footer = () => {
               <span className="me-2">
                 <FontAwesomeIcon icon={faEnvelope} />
               </span>
-              <a href="mailto:rkesav786@gmail.com" className="text-decoration-none fs-sm">rkesav786@gmail.com</a>
+              <a
+                href="mailto:rkesav786@gmail.com"
+                className="text-decoration-none fs-6  text-secondary"
+              >
+                rkesav786@gmail.com
+              </a>
             </h4>
           </div>
         </div>
